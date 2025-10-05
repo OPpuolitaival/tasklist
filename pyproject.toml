@@ -1,0 +1,11 @@
+[project]
+name = "tasklist"
+version = "0.1.0"
+description = "Django Task List Application"
+requires-python = ">=3.13"
+dependencies = [
+    "django>=5.0.0",
+    "djangorestframework>=3.14.0",
+    "django-cors-headers>=4.3.0",
+    "djangorestframework-simplejwt>=5.3.0",
+]
